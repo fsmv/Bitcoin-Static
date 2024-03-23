@@ -198,6 +198,7 @@ public:
         vSeeds.clear();
 
         vSeeds.emplace_back("dnsseed.ergon.moe");
+        vSeeds.emplace_back("ergonseed.ask.systems");
         vSeeds.emplace_back("seed.ergon.loping.net");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<uint8_t>(1, 0);
